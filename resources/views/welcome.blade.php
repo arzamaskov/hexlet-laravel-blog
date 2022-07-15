@@ -10,7 +10,6 @@
     <body>
         <div class="container mt-4">
             <a href="/about">About</a>
-            <a href="/articles">Articles</a>
         </div>
     </body>
 </html>
