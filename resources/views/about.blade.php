@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
+        <title>Laravel | About</title>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}"></script>
     </head>
     <body>
         <div class="container mt-4">
-            <a href="/about">About</a>
-            <a href="/articles">Articles</a>
+            <h1>О блоге</h1>
+            <p>Эксперименты с Ларавелем на Хекслете</p>
         </div>
     </body>
 </html>
