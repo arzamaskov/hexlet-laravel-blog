@@ -5,5 +5,12 @@
 @section('header', 'Laravel')
 
 @section('content')
-    <a href="/about">About</a>
+    <ul>
+        <li>
+            <a href="/about">About</a>
+        </li>
+        <li>
+            <a href="{{ route('articles.index') }}">Articles</a>
+        </li>
+    </ul>
 @endsection
