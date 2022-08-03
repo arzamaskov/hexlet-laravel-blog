@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@if (Session::has('success'))
+    {{ Session::get('success') }}
+@endif
+
 @section('content')
 <h1>Articles</h1>
 @foreach ($articles as $article)
